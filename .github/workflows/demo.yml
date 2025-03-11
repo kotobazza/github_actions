@@ -5,7 +5,7 @@ on:
    
 jobs:
   print: 
-    runs-on: fedora-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print to console
         run: echo "Hello Github Actions"
