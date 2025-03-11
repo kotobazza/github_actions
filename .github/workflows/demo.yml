@@ -1,0 +1,13 @@
+name: Demo Workflow
+
+on:
+  workflow_dispatch:
+   
+jobs:
+  print: 
+    runs-on: fedora-latest
+    steps:
+      - name: Print to console
+      - run: echo "Hello Github Actions"
+      
+    
