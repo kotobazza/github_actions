@@ -8,6 +8,6 @@ jobs:
     runs-on: fedora-latest
     steps:
       - name: Print to console
-      run: echo "Hello Github Actions"
+        run: echo "Hello Github Actions"
       
     
